@@ -1,0 +1,111 @@
+/*body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/photo-of-houses-2187605.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+*/
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: bgcolor 40s infinite;
+
+}
+
+#titulo {
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 5px 5px 5px #000000;
+    text-decoration: underline;
+}
+
+#loggin {
+    height: 80%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.678);
+}
+
+#avisos {
+    height: 50%;
+    width: 50%;
+    background-color: rgb(255, 239, 151);
+    text-align: center;
+}
+
+
+@keyframes bgcolor {
+    0% {
+        background-image: url(../img/architecture-carpet-chandeliers-design-573552.jpg);
+    }
+    0.01% {
+        background-image: url(../img/bed-bedroom-blanket-clean-545012.jpg);
+    }
+    10% {
+        background-image: url(../img/bed-bedroom-blanket-clean-545012.jpg);
+    }
+    10.01% {
+        background-image: url(../img/woman-in-black-long-sleeve-dress-lying-on-a-bed-3926324.jpg);
+    }
+    20% {
+        background-image: url(../img/woman-in-black-long-sleeve-dress-lying-on-a-bed-3926324.jpg);
+    }
+    20.01% {
+        background-image: url(../img/hotel-schloss-fernsteinsee-3934022.jpg);
+    }
+    40% {
+        background-image: url(../img/hotel-schloss-fernsteinsee-3934022.jpg);
+    }
+    40.01% {
+        background-image: url(../img/photo-of-hotel-during-night-time-2031990.jpg);
+    }
+    50% {
+        background-image: url(../img/photo-of-hotel-during-night-time-2031990.jpg);
+    }
+    50.01% {
+        background-image: url(../img/photo-of-houses-2187605.jpg);
+    }
+    70% {
+        background-image: url(../img/photo-of-houses-2187605.jpg);
+    }
+    70.01% {
+        background-image: url(../img/red-and-brown-floral-stair-carpet-161758.jpg);
+    }
+    80% {
+        background-image: url(../img/red-and-brown-floral-stair-carpet-161758.jpg);
+    }
+    80.01% {
+        background-image: url(../img/bedroom-door-entrance-guest-room-271639.jpg);
+    }
+    90% {
+        background-image: url(../img/bedroom-door-entrance-guest-room-271639.jpg);
+    }
+    90.01% {
+        background-image: url(../img/white-and-black-mattress-fronting-the-mountain-775219.jpg);
+    }
+    100% {
+        background-image: url(../img/white-and-black-mattress-fronting-the-mountain-775219.jpg);
+    }
+}
+
+
+
+/*SCRLLBAR PARA CHROME*/
+body::-webkit-scrollbar
+{
+	width: 1px;
+    background-color: #F5F5F5;
+    opacity: 0;
+}
+
+
